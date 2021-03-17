@@ -58,6 +58,7 @@ function setup() {
 }
 function draw() {
   background("green"); 
+  
   text(mouseX + ',' + mouseY, 10, 15);
   textSize(20);
   fill("black");
